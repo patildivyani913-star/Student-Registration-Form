@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <h1 align="center">Student Registration Form</h1>
+    <hr>
+
+    <form>
+        <label>Roll No. :</label>
+        <input type="text" size="10"><br><br>
+
+        <label>Student Name :</label>
+        <input type="text" placeholder="First Name" size="15">
+        <input type="text" placeholder="Last Name" size="15"><br><br>
+
+        <label>Father's Name :</label>
+        <input type="text" size="30"><br><br>
+
+        <label>Date of Birth :</label>
+        <input type="text" placeholder="Day" size="5"> -
+        <input type="text" placeholder="Month" size="5"> - 
+        <input type="text" placeholder="Year" size="8"> (DD-MM-YYY)<br><br>
+         
+        <label>Mobile No. :</label>
+        <input type="text" value="+91" size="3"> - 
+        <input type="text" size="25"><br><br>
+
+        <label>Email ID :</label>
+        <input type="email" size="30"><br><br>
+
+        <label>Password :</label>
+        <input type="password" size="30"><br><br>
+
+        <label>Gender :</label>
+        <input type="radio" name="Gender">Male
+        <input type="radio" name="Gender">Female <br><br>
+
+        <label>Department :</label>
+        <input type="radio" name="department"> CSE
+        <input type="radio" name="department"> IT
+        <input type="radio" name="department"> ENTC
+        <input type="radio" name="department"> Civil
+        <input type="radio" name="department"> Mech 
+        <br><br>
+
+        <label>Course :</label>
+        <select>
+            <option>-----------Select Current Course----------</option>
+            <option>BCA</option>
+            <option>B.Sc</option>
+            <option>B.Tech</option>
+            <option>MCA</option>
+            <option>M.Tech</option>
+        </select><br><br>
+
+        <label>Student Photo :</label>
+        <input type="file"><br><br>
+        <label>City :</label>
+        <input type="text" size="30"><br><br>
+        <label>Address :</label><br>
+        <textarea rows="6" cols="50"></textarea>
+        <br><br>
+        <center>
+            <input type="submit" value="Register">
+        </center>
+    </form>
+</body>
+</html>
