@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Style Properties</title>
+
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        #box{
+            width:200px;
+            height:100px;
+            background-color:rgb(171, 199, 47);
+            margin:20px auto;
+            line-height:100px;
+            font-weight:bold;
+        }
+
+        button{
+            margin:5px;
+            padding:10px 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 id="heading">Hello Students</h1>
+
+    <div id="box">DOM Box</div>
+
+    <button onclick="changeTextColor()">Text Color</button>
+
+    <button onclick="changeBackground()">Background</button>
+
+    <button onclick="changeFontSize()">Font Size</button>
+
+    <button onclick="changeWidth()">Width</button>
+
+    <button onclick="changeHeight()">Height</button>
+
+    <button onclick="hideBox()">Hide Box</button>
+
+    <button onclick="showBox()">Show Box</button>
+
+    <button onclick="changeBorder()">Border</button>
+
+    <button onclick="changeBorderRadius()">Border Radius</button>
+
+    <button onclick="changeShadow()">Box Shadow</button>
+
+    <script src="effects.js"></script>
+
+</body>
+</html>
